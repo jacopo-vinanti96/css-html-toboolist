@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Meglio non caricare troppi tipi di font per non caricare troppi dati e far scaricare meno dati -->
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <title>Toboolist - my boolist</title>
+  </head>
+  <body>
+    <header>
+      <img src="img/Logo.png" alt="Toboolist title">
+      <h1>Toboolist</h1>
+    </header>
+    <main>
+      <!-- Actions section -->
+      <div class="actions">
+        <button class="blue" type="button" name="add-task">Add Task</button>
+        <button class="white" type="button" name="add-task">Add Section</button>
+      </div>
+      <hr>
+      <!-- New tasks sections -->
+      <details open>
+        <summary>
+          <h2>New task</h2>
+        </summary>
+        <p>
+          <span class="check">&#10004;</span> Quarterly Newsletter <span class="topic-tag editorial">Editorial</span>
+        </p>
+      </details>
+      <!-- Today section -->
+      <details open>
+        <summary>
+          <h2>
+            Today
+          </h2>
+        </summary>
+        <p>
+          <span class="check">&#10004;</span> Recruiting blog post <span class="topic-tag editorial">Editorial</span>
+        </p>
+        <p>
+          <span class="check">&#10004;</span> Mobile app launch <span class="topic-tag q1-goals">Q1&nbsp;Goals</span>
+        </p>
+        <p>
+          <span class="cross">&#10006;</span> Quarterly Newsletter <span class="topic-tag recruiting">Recruiting</span>
+        </p>
+        <p>
+          <span class="check">&#10004;</span> Mobile app launch <span class="topic-tag mobile">Mobile</span>
+        </p>
+      </details>
+      <!-- Upcoming section -->
+      <details open>
+        <summary>
+          <h2>
+            Upcoming
+          </h2>
+        </summary>
+        <p>
+          <span class="cross">&#10006;</span> Schedule meeting with Alex
+        </p>
+        <p>
+          <span class="check">&#10004;</span> Homepage refresh <span class="topic-tag website">Website</span>
+        </p>
+        <p>
+          <span class="check">&#10004;</span> Onboard new Sales team members <span class="topic-tag sales">Sales</span>
+        </p>
+        <p>
+          <span class="check">&#10004;</span> Review editorial calender <span class="topic-tag editorial">Editorial</span>
+        </p>
+      </details>
+
+    </main>
+
+  </body>
+</html>

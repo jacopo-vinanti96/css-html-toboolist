@@ -1,0 +1,128 @@
+
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+}
+
+body {
+  background-color: #ddd;
+}
+
+main > *:not(hr) {
+  margin-left: 30px;
+}
+
+main {
+  padding-bottom: 30px;
+}
+
+header {
+  padding: 20px 0px 20px 40px;
+  margin-bottom: 40px;
+  background-color: white;
+  height: auto;
+}
+
+header > h1 {
+ display: inline;
+ vertical-align: middle;
+}
+
+header > img {
+  vertical-align: middle;
+}
+
+main {
+  width: 80%;
+  margin: auto;
+  background-color: white;
+}
+
+div.actions {
+  padding-top: 30px;
+  padding-bottom: 10px;
+}
+
+div.actions > button {
+  padding: 4px;
+  border-radius: 8px;
+  border: 1px solid grey;
+}
+
+button.blue {
+  background-color: #45ABEA;
+  color: white;
+}
+
+button.white {
+  background-color: white;
+  color: grey;
+}
+
+details {
+  margin-top: 30px;
+}
+
+h2 {
+  display: inline;
+}
+
+p {
+  font-size: 18px;
+  margin: 10px 0px;
+}
+
+p > span {
+  border-radius: 100%;
+  font-size: 10px;
+  text-align: center;
+  width: 16.71px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+span.check {
+  color: #72C6B2;
+  border: 1.5px solid #72C6B2;
+
+}
+span.cross {
+  color: #EF8F8B;
+  border: 1.5px solid #EF8F8B;
+
+}
+
+.topic-tag {
+  border-radius: 8px;
+  width: auto;
+  padding: 3px;
+  color: white;
+  /* altrimenti se il padding fosse stato più grande i background si sarebbero sovrapposti essendo <span> inline */
+  display: inline-block;
+}
+
+.topic-tag.editorial {
+  background-color: #45ABEA;
+}
+
+.topic-tag.q1-goals {
+  background-color: #9C72E4;
+}
+
+.topic-tag.recruiting {
+  background-color: #64C0A9;
+}
+
+.topic-tag.mobile {
+  background-color: #F29E33;
+}
+
+.topic-tag.website {
+  background-color: #D863A1;
+}
+
+.topic-tag.sales {
+  background-color: #B0C926;
+}
